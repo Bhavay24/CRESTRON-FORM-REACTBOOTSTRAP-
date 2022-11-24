@@ -1,0 +1,36 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+input,
+select {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
+  margin-bottom: 5px !important;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+  font-style: oblique;
+}
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+  /* error message */
+}
+input:invalid[focused="true"] {
+  border: 2px solid red;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+
+  /* after clicking form submit user should be shown the invalid field (focus). */
+}
