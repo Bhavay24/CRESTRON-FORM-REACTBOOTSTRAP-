@@ -3,13 +3,13 @@ import "./App.css";
 import "./components/formInput.css";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-//import "bootstrap/dist/css/bootstrap.min.css";
+import { Alert, Button, Modal } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
 
 import FormInput from "./components/FormInput";
 import CreatableSelect from "react-select/creatable"; //implemented CreatableSelect library for the "Hobbies" section.
-import Form from "react-bootstrap/Form";
-//import { Alert } from "bootstrap"; //for the alert box
-import { Alert, Button, Modal } from "react-bootstrap";
+
+
 
 const App = () => {
   const hoptions = [
