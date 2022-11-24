@@ -35,8 +35,7 @@ const App = () => {
     e.preventDefault();
     setShowModal(true);
 
-    // we have created the function to prevent from refreshing as when we click the submit button , the default action which belongs to the event will not occur.Basically to prevent the native behaviour of the browser.
-  };
+   };
 
   const onChange = (e) => {
     //to change the values , having previous values, they are gonna update using target name and value will be updated immediately.
