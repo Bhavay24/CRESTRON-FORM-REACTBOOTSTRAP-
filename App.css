@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://www.crestron.com/getmedia/2ce60a61-ceb2-48aa-aac6-07fb6a9cdfbf/15_Volvo_Sky_Exterior_Color");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+form {
+  padding: 20px 60px;
+  border-radius: 10px;
+  /* background-color: white; */
+  border-radius: 2rem;
+  z-index: 1000;
+  /* opacity: 50%; */
+}
+
+.pseudobackground {
+  position: absolute;
+  background-color: white;
+  opacity: 50%;
+  height: 95%;
+  border-radius: 50px;
+  width: 400px;
+  z-index: 1; 
+}
+
+.input {
+  padding: 15px;
+  font-weight: bolder;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: grey;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  margin: 90px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white !important;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
